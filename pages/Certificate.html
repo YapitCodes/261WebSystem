@@ -6,7 +6,7 @@
     <title>Marriage Certificate</title>
 </head>
 <body>
-    <form id="marriageForm">
+    <form>
         <table border ="1" width="1200"  cellspacing="0"> 
             <tr>
                 
@@ -809,16 +809,4 @@
         </div>
     </form>
 </body>
-<script>
-        document.getElementById('marriageForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            alert("Form submitted successfully!");
-            
-            console.log("Submitted Data:", data);
-        });
-</script>
 </html>             
