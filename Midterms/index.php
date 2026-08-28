@@ -35,12 +35,43 @@
             $quotient = $number1 / $number2;
             $modulo = $number1 % $number2;
             echo "<table border=$border>
-            <tr><td>Sum</td><td>$sum</td></tr>
-            <tr><td>Difference</td><td>$difference</td></tr>
-            <tr><td>Product</td><td>$product</td></tr>
-            <tr><td>Quotient</td><td>$quotient</td></tr>
-            <tr><td>Modulo</td><td>$modulo</td></tr>
-            <table>";
+                    <tr>
+                        <th>Num1</th>
+                        <th>Operator</th>
+                        <th>Num2</th>
+                        <th>Result</th>
+                    </tr>
+                    <tr>
+                        <td>$number1</td>
+                        <td> + </td>
+                        <td>$number2</td>
+                        <td>$sum</td>
+                    </tr>
+                    <tr>
+                        <td>$number1</td>
+                        <td> - </td>
+                        <td>$number2</td>
+                        <td>$difference</td>
+                    </tr>
+                    <tr>
+                        <td>$number1</td>
+                        <td> * </td>
+                        <td>$number2</td>
+                        <td>$product</td>
+                    </tr>
+                    <tr>
+                        <td>$number1</td>
+                        <td> / </td>
+                        <td>$number2</td>
+                        <td>$quotient</td>
+                    </tr>
+                    <tr>
+                        <td>$number1</td>
+                        <td> % </td>
+                        <td>$number2</td>
+                        <td>$modulo</td>
+                    </tr>
+                <table>";
 
         }
     ?>
